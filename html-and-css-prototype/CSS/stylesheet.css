@@ -47,6 +47,14 @@ h1 {
 	max-width: 265px;
 	border: 1px solid #eaeaea;
 }
+.smallBoxModel{
+	box-sizing:border-box;
+	display:grid;
+	grid-template:100%/50% 50%;
+	height:50px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin-bottom:8px;
+}
 
 .linksBox{
 	display: grid;
@@ -55,43 +63,31 @@ h1 {
 	margin-top:10px;
 	height:40px;
 	width:265px;
-	font-size:14px;
+	font-size:13px;
 	color:#777;
 	font-weight:bold;
-
-
-
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
-.saveLink{
-	border: 1px solid #eaeaea;
-	border-radius:5px;
-	text-align:center;
-	margin:0px 15px 0px 0px;
-	width:122px;
-	padding-top:8px;
-	background-color:#eaeaea;
-
-}
-.shareLink{
-	border: 1px solid #eaeaea;
-	border-radius:5px;
-	text-align:center;
-	width:120px;
-	margin:0px 0px 0px 15px;
-	padding-top:8px;
-	background-color:#eaeaea;
-}
-
 .remainingGoal{
 
 	background-color:#424242;
-	color:white;
+	color:#eaeaea;
 	text-align:center;
-	height:40px;
+	height:45px;
 	border-radius:3px;
-	padding:10px;
+	padding-top:10px;
+	padding-left:14px;
 	font-size:14px;
-
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+}
+.triangleDown{
+	width:0;
+	height:0;
+	border-left:5px solid transparent;
+	border-right:5px solid transparent;
+	border-top:7px solid black;
+	margin-left:85%;
+	margin-top:13px;
 }
 .statusBar{
 	max-width: 265px;
@@ -109,21 +105,10 @@ h1 {
 	padding:20px;
 	font-size:14px;
 	color:#777;
-
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	}
 
-.smallBoxModel{
-	box-sizing:border-box;
-	display:grid;
-
-	grid-template:100%/50% 50%;
-
-	height:50px;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	margin-bottom:8px;
-}
-.donate{
+.giveNow{
 	background-color:#1CBC2C;
 	color: white;
 	border-radius:5px;
@@ -143,4 +128,22 @@ h1 {
 	margin:0 0;
 	font-size:18px;
 	font-weight:bold;
+}
+.saveLink{
+	border: 1px solid #eaeaea;
+	border-radius:5px;
+	text-align:center;
+	margin:0px 15px 0px 0px;
+	width:122px;
+	padding-top:8px;
+
+}
+.shareLink{
+	border: 1px solid #eaeaea;
+	border-radius:5px;
+	text-align:center;
+	width:118px;
+	margin:0px 0px 0px 15px;
+	padding-top:8px;
+
 }
