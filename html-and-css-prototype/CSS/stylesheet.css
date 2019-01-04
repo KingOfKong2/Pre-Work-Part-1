@@ -40,3 +40,107 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.boxModel{
+	box-sizing:border-box;
+	margin: 0 auto;
+	max-width: 265px;
+	border: 1px solid #eaeaea;
+}
+
+.linksBox{
+	display: grid;
+	grid-template: 100%/50% 50%;
+	margin: 0 auto;
+	margin-top:10px;
+	height:40px;
+	width:265px;
+	font-size:14px;
+	color:#777;
+	font-weight:bold;
+
+
+
+}
+.saveLink{
+	border: 1px solid #eaeaea;
+	border-radius:5px;
+	text-align:center;
+	margin:0px 15px 0px 0px;
+	width:122px;
+	padding-top:8px;
+	background-color:#eaeaea;
+
+}
+.shareLink{
+	border: 1px solid #eaeaea;
+	border-radius:5px;
+	text-align:center;
+	width:120px;
+	margin:0px 0px 0px 15px;
+	padding-top:8px;
+	background-color:#eaeaea;
+}
+
+.remainingGoal{
+
+	background-color:#424242;
+	color:white;
+	text-align:center;
+	height:40px;
+	border-radius:3px;
+	padding:10px;
+	font-size:14px;
+
+}
+.statusBar{
+	max-width: 265px;
+	background-color:white;
+	padding-bottom:0px;
+	margin-top:10px;
+}
+.statusBar div{
+	background-color:#EF5F3C;
+	width: 75%;
+	height:12px;
+}
+.infoBox{
+	border-top:0;
+	padding:20px;
+	font-size:14px;
+	color:#777;
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	}
+
+.smallBoxModel{
+	box-sizing:border-box;
+	display:grid;
+
+	grid-template:100%/50% 50%;
+
+	height:50px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin-bottom:8px;
+}
+.donate{
+	background-color:#1CBC2C;
+	color: white;
+	border-radius:5px;
+	width:100px;
+	padding:10px;
+	text-align:center;
+	border:1px solid #eaeaea;
+	margin:0px 0px 0px 15px;
+	font-size:18px;
+}
+.amount{
+	border-radius:5px;
+	width:100px;
+	padding:12px;
+	text-align:left;
+	border:1px solid #eaeaea;
+	margin:0 0;
+	font-size:18px;
+	font-weight:bold;
+}
